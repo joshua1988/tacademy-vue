@@ -20,3 +20,20 @@
 - 실습 환경 보조 : [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 - 기타
   - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode), [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager), [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag), [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens), [Atom Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings), [Jetbrains IDE Keymap](https://marketplace.visualstudio.com/items?itemName=isudox.vscode-jetbrains-keybindings) 등
+
+## 사전 학습 자료
+
+웹 프로그래밍 기본
+- [HTML - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Javascript - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+자바스크립트
+- [자바스크립트 기본 문법](https://joshua1988.github.io/web-development/javascript/javascript-basic-summary/)
+- [자바스크립트 동작 원리](https://joshua1988.github.io/web-development/translation/javascript/how-js-works-inside-engine/)
+- [자바스크립트 비동기 처리 이해하기](https://joshua1988.github.io/web-development/javascript/javascript-asynchronous-operation/)
+
+Vue.js
+- [Vue.js 입문서(블로그)](https://joshua1988.github.io/web-development/vuejs/vuejs-tutorial-for-beginner/)
+- [Vue.js 입문서(책)](http://www.yes24.com/Product/Goods/58206961?scode=032&OzSrank=1)
+- [Vue.js 시작하기(강의)](https://www.inflearn.com/course/Age-of-Vuejs#)
