@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vue Template</title>
+  <style>
+  .blue {
+    color: blue;
+  }
+  .red {
+    color: red;
+  }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <div>
+      <h1>버튼 클릭 이벤트 동작과 화면 제어</h1>
+      <button v-on:click="loginUser" v-if="!login">로그인</button>
+      <p v-else>로그인 되었습니다</p>
+    </div>
+    <div>
+      <h1>리스트 아이템 조작</h1>
+      <button v-on:click="addItem">상품 추가하기</button>
+      <button v-on:click="removeItem">상품 삭제하기</button>
+      <ul>
+        <li v-for="item in items">{{ item }}</li>
+      </ul>
+    </div>
+    <div>
+      <h1>HTML 속성 조작</h1>
+      <button v-on:click="colorBlue">파란색 텍스트로</button>
+      <button v-on:click="colorRed">빨간색 텍스트로</button>
+      <p v-bind:class="textClass">텍스트 색깔이 바뀝니다</p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script>
+    var vm = new Vue({
+      el: '#app',
+      data: {
+        login: false,
+        items: ['맥도날드', '버거킹', '롯데리아'],
+        textClass: ''
+      },
+      methods: {
+        loginUser: function() {
+          this.login = true;
+        },
+        addItem: function() {
+          this.items.push('쉑쉑버거');
+        },
+        removeItem: function() {
+          this.items.pop();
+        },
+        colorBlue: function() {
+          this.textClass = 'blue';
+        },
+        colorRed: function() {
+          this.textClass = 'red';
+        }
+      }
+    });
+  </script>
+</body>
+</html>

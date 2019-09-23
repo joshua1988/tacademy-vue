@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vue Router</title>
+</head>
+<body>
+  <div id="app">
+    <h1>라우터 예제</h1>
+    <div>
+      <router-link to="/home">Home 화면</router-link>
+      <router-link to="/login">Login 화면</router-link>
+    </div>
+    <div>
+      <router-view></router-view>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+  <script>
+    var router = new VueRouter({
+      routes: [
+        {
+          path: '/home',
+          component: {
+            template: '<p>This is Home</p>'
+          }
+        },
+        {
+          path: '/login',
+          component: {
+            template: '<p>This is Login</p>'
+          }
+        }
+      ]
+    })
+
+    var vm = new Vue({
+      el: '#app',
+      router: router
+    });
+  </script>
+</body>
+</html>

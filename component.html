@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vue Component</title>
+</head>
+<body>
+  <div id="app">
+    <app-header></app-header>
+    <app-contents></app-contents>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script>
+    Vue.component('app-header', {
+      template: '<h1>전역 컴포넌트</h1>',
+    });
+
+    var vm = new Vue({
+      el: '#app',
+      components: {
+        'app-contents': {
+          template: '<div>지역 컴포넌트</div>'
+        }
+      }
+    });
+  </script>
+</body>
+</html>
