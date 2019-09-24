@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quiz - Event Emit</title>
+</head>
+<body>
+  <div id="app">
+    <app-header v-bind:title="appTitle"></app-header>
+    <!-- TODO: 'app-contents'에서 발생한 이벤트를 받아 'appTitle'의 값을 바꾸는 메서드를 실행해보세요 -->
+    <app-contents></app-contents>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script>
+    new Vue({
+      el: '#app',
+      data: {
+        appTitle: 'Vue Props'
+      },
+      methods: {
+        // TODO: 'appTitle'의 값을 'Event Emit'로 바꾸는 메서드를 정의해보세요.
+      },
+      components: {
+        'app-header': {
+          template: '<h1>{{ title }}</h1>',
+          props: ['title'],
+        },
+        'app-contents': {
+          template: '<button v-on:click="changeTitle">change</button>',
+          methods: {
+            changeTitle: function() {
+              console.log('clicked');
+              // TODO: '$emit()' API를 이용해 상위 컴포넌트의 'appTitle' 값을 'Event Emit'으로 바꿔보세요.
+            }
+          }
+        }
+      }
+    });
+  </script>
+</body>
+</html>

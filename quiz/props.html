@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quiz - Props</title>
+</head>
+<body>
+  <div id="app">
+    <!-- TODO: 아래에서 정의한 'app-header' 컴포넌트를 등록하고 props 속성에 'appTitle' 데이터를 넘겨보세요. -->
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script>
+    new Vue({
+      el: '#app',
+      data: {
+        appTitle: 'Vue Props'
+      },
+      components: {
+        'app-header': {
+          template: '<h1>bind props with mustache tags</h1>',
+          // TODO: 위 'appTitle' 데이터 속성을 넘겨 받을 수 있는 props 속성을 정의해보세요.
+        }
+      }
+    });
+  </script>
+</body>
+</html>
