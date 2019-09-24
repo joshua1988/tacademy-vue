@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vue Event Emit</title>
+</head>
+<body>
+  <div id="app">
+    <app-header v-bind:counter="num"></app-header>
+    <app-contents v-on:add="increaseNumber"></app-contents>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script>
+    var vm = new Vue({
+      el: '#app',
+      data: {
+        num: 0
+      },
+      methods: {
+        increaseNumber: function() {
+          this.num = this.num + 1;
+        }
+      },
+      components: {
+        'app-header': {
+          props: ['counter'],
+          template: '<div>{{ counter }}</div>'
+        },
+        'app-contents': {
+          template: '<div><button v-on:click="increaseCounter">increase</button></div>',
+          methods: {
+            increaseCounter: function() {
+              this.$emit('add');
+            }
+          }
+        }
+      }
+    });
+  </script>
+</body>
+</html>
