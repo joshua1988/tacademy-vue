@@ -1,11 +1,11 @@
 # T 아카데미 - Vue.js
 
-이 리포지토리는 T아카데미 Vue.js 수업을 위한 리포지토리입니다.
+이 리포지토리는 [T아카데미 Vue.js 수업](https://tacademy.skplanet.com/front/tacademy/courseinfo/campus.action?classIndex=1611)을 위한 리포지토리입니다.
 
 ## 강의 개요
 
 - 주제 : 현대 프런트엔드 개발과 Do it! Vue.js
-- 일시 : 2019.09.15(수) 13시 ~ 18시, 총 5시간
+- 일시 : 2019.09.25(수) 13시 ~ 18시, 총 5시간
 - 장소 : SK플래닛 T아카데미 (서울대연구공원단지내 SK연구동)
 
 ## 교과 과정
