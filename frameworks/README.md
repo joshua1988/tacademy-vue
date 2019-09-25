@@ -10,13 +10,13 @@ npm install -g @angular/cli
 3. 앵귤러 프로젝트 생성
 
 ```bash
-ng new my-app
+ng new my-angular-app
 ```
 
 4. 프로젝트 서버 실행
 
 ```bash
-cd my-app
+cd my-angular-app
 ng serve --open
 ```
 
