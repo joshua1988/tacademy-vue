@@ -2,6 +2,22 @@
 
 이 리포지토리는 [T아카데미 Vue.js 수업](https://tacademy.skplanet.com/front/tacademy/courseinfo/campus.action?classIndex=1611)을 위한 리포지토리입니다.
 
+## 수업 중 언급한 자료
+
+- [스택 오버 플로어 Brutal Lifecycle of JS Framework](https://stackoverflow.blog/2018/01/11/brutal-lifecycle-javascript-frameworks/)
+- [State of JS 2018](https://2018.stateofjs.com/front-end-frameworks/overview/)
+- [웹팩 핸드북](https://joshua1988.github.io/webpack-guide/)
+- [Babel 공식 문서](https://babeljs.io)
+- [Object.defineProperty() MDN 문서](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty)
+- [Vue.js Reactivity in Depth](https://vuejs.org/v2/guide/reactivity.html)
+- [MDN](https://developer.mozilla.org/ko/)
+- [Vue.js Developer](https://vuejsdevelopers.com)
+- [Google 웹 공식 기술 문서](https://developers.google.com/web/fundamentals)
+- [PWA 정리 블로그](https://joshua1988.github.io/web-development/pwa/io-2018-pwa/)
+- [ES6 입문서](https://joshua1988.github.io/es6-online-book/guide.html)
+- [Vue Template Explorer](https://template-explorer.vuejs.org)
+- [브라우저 동작 원리](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#The_browsers_we_will_talk_about)
+
 ## 강의 개요
 
 - 주제 : 현대 프런트엔드 개발과 Do it! Vue.js
@@ -53,3 +69,10 @@ Vue.js
 - [Vue.js 입문서(블로그)](https://joshua1988.github.io/web-development/vuejs/vuejs-tutorial-for-beginner/)
 - [Vue.js 입문서(책)](http://www.yes24.com/Product/Goods/58206961?scode=032&OzSrank=1)
 - [Vue.js 시작하기(강의)](https://www.inflearn.com/course/Age-of-Vuejs#)
+
+## 온라인 & 오프라인 강좌
+
+어제 수업 이후 학습할 수 있는 온라인, 오프라인강의 여쭤보신 분들이 계셔서 아래에 정보 남깁니다 :) 
+
+- [Vue.js 학습 로드맵(인프런)](https://www.inflearn.com/roadmaps/3)
+- [패스트캠퍼스 Vue.js 강의](https://www.fastcampus.co.kr/dev_camp_vue)
