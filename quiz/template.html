@@ -16,27 +16,45 @@
   <!-- TODO: App Title을 뷰 데이터 속성으로 관리할 수 있게 데이터 바인딩을 적용해보세요. -->
   <header>
     <div>
-      App Title
+      {{ str }}
     </div>
     <div>
       <!-- TODO: 아래 로그인 버튼을 클릭했을 때 버튼이 사라지게 뷰 디렉티브를 적용해보세요. -->
-      <button>Login</button>
+      <button v-on:click="hideButton" v-if="!isButtonHidden">Login</button>
     </div>
   </header>
   <section>
     <h1>Shopping List</h1>
     <!-- TODO: 아래 리스트에 v-for 디렉티브를 적용해보세요. -->
     <ul>
-      <li>Shoes</li>
-      <li>Shirts</li>
-      <li>Shorts</li>
-      <li>Pants</li>
+      <li v-for="item in shoppingItems">
+        {{ item }}
+      </li>
     </ul>
   </section>
 
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <script>
     // TODO: 아래에 코드 제작
+    new Vue({
+      el: 'header',
+      data: {
+        str: 'App Title',
+        isButtonHidden: false,
+      },
+      methods: {
+        hideButton: function() {
+          this.isButtonHidden = true;
+        }
+      }
+    })
+
+    new Vue({
+      el: 'section',
+      data: {
+        shoppingItems: ['Shoes', 'Shirts', 'Shorts', 'Pants']
+      }
+    })
   </script>
 </body>
 </html>

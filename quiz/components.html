@@ -9,18 +9,26 @@
 <body>
   <div id="app">
     <!-- TODO: 등록한 컴포넌트를 아래에 등록하여 화면에 표시해보세요. -->
+    <app-header></app-header>
+    <app-contents></app-contents>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <script>
     // TODO: 아래 문법을 참고하여 'app-contents' 컴포넌트를 등록해보세요.
     // Vue.component('컴포넌트 이름', 컴포넌트 내용)
+    Vue.component('app-contents', {
+      template: '<div>전역 컴포넌트</div>'
+    })
 
     new Vue({
       el: '#app',
       components: {
         // TODO: 아래 문법을 참고하여 'app-header' 컴포넌트를 등록해보세요.
         // '컴포넌트 이름': 컴포넌트 내용
+        'app-header': {
+          template: '<h1>지역 컴포넌트</h1>'
+        }
       }
     })
   </script>
