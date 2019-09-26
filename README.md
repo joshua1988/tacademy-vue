@@ -2,6 +2,11 @@
 
 이 리포지토리는 [T아카데미 Vue.js 수업](https://tacademy.skplanet.com/front/tacademy/courseinfo/campus.action?classIndex=1611)을 위한 리포지토리입니다.
 
+## 수업 중 제작한 코드 및 퀴즈 답안 안내
+ 
+- 수업 중 제가 작성한 코드는 모두 [class](https://github.com/joshua1988/tacademy-vue/tree/class) 브랜치에 올라가 있습니다. 작성한 코드를 바로 확인하시고 싶다면 이 [링크](https://github.com/joshua1988/tacademy-vue/commit/e4a9a0b66e5752e836f5ef5316965712aa73d5b2)를 클릭하세요.
+- quiz 폴더의 답안을 [answer](https://github.com/joshua1988/tacademy-vue/tree/answer) 브랜치에 올렸습니다. 답안을 확인하시고 싶다면 이 [링크](https://github.com/joshua1988/tacademy-vue/commit/3a5895951d4375e2600325f2f32deaaa9ad918bd)를 클릭하세요.
+
 ## 수업 중 언급한 자료
 
 - [스택 오버 플로어 Brutal Lifecycle of JS Framework](https://stackoverflow.blog/2018/01/11/brutal-lifecycle-javascript-frameworks/)
@@ -17,6 +22,13 @@
 - [ES6 입문서](https://joshua1988.github.io/es6-online-book/guide.html)
 - [Vue Template Explorer](https://template-explorer.vuejs.org)
 - [브라우저 동작 원리](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#The_browsers_we_will_talk_about)
+
+## 온라인 & 오프라인 강좌
+
+어제 수업 이후 학습할 수 있는 온라인, 오프라인강의 여쭤보신 분들이 계셔서 아래에 정보 남깁니다 :) 
+
+- [Vue.js 학습 로드맵(인프런)](https://www.inflearn.com/roadmaps/3)
+- [패스트캠퍼스 Vue.js 강의](https://www.fastcampus.co.kr/dev_camp_vue)
 
 ## 강의 개요
 
@@ -69,10 +81,3 @@ Vue.js
 - [Vue.js 입문서(블로그)](https://joshua1988.github.io/web-development/vuejs/vuejs-tutorial-for-beginner/)
 - [Vue.js 입문서(책)](http://www.yes24.com/Product/Goods/58206961?scode=032&OzSrank=1)
 - [Vue.js 시작하기(강의)](https://www.inflearn.com/course/Age-of-Vuejs#)
-
-## 온라인 & 오프라인 강좌
-
-어제 수업 이후 학습할 수 있는 온라인, 오프라인강의 여쭤보신 분들이 계셔서 아래에 정보 남깁니다 :) 
-
-- [Vue.js 학습 로드맵(인프런)](https://www.inflearn.com/roadmaps/3)
-- [패스트캠퍼스 Vue.js 강의](https://www.fastcampus.co.kr/dev_camp_vue)
