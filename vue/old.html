@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app">hi</div>
+
+  <script>
+  // debugger;
+  var div = document.querySelector('#app');
+  var str = 'hello world'
+  div.innerHTML = str;
+  str = 'hello vue';
+  div.innerHTML = str;
+
+  // Object.defineProperty
+  //   ('대상 객체', '객체 속성', 객체 동작)
+
+  var obj = {};
+  Object.defineProperty(obj, 'str', {
+    get: function() {
+      // `obj.str` 했을 때 돌아가는 코드 - 접근
+      console.log('접근');
+    },
+    set: function(newValue) {
+      // `obj.str = 10` 했을 때 돌아가는 코드 - 할당
+      console.log('할당', newValue);
+      div.innerHTML = newValue;
+    }
+  });
+  </script>
+</body>
+</html>

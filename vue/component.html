@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app">
+    <app-header></app-header>
+    <app-contents></app-contents>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script>
+    // Vue.component('컴포넌트 이름', 컴포넌트 내용);
+    // Vue.component('app-contents', {
+    //   template: '<div>컨텐츠 컴포넌트</div>'
+    // });
+
+    new Vue({
+      el: '#app',
+      components: {
+        // '컴포넌트 이름': 컴포넌트 내용,
+        'app-header': {
+          template: '<h1>헤더 컴포넌트</h1>'
+        },
+        // TODO: 아래에 'app-contents' 컴포넌트를 등록하고 표시해보세요.
+        'app-contents': {
+          template: '<div>컨텐츠 컴포넌트</div>'
+        }
+        // 쉬는 시간은 4시 10분
+        // 다 하신 분들은 `quiz` 폴더의 `components.html`도 풀어보세요.
+      }
+    })
+  </script>
+</body>
+</html>
