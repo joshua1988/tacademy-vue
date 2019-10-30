@@ -27,8 +27,13 @@
 
 어제 수업 이후 학습할 수 있는 온라인, 오프라인강의 여쭤보신 분들이 계셔서 아래에 정보 남깁니다 :) 
 
-- [Vue.js 학습 로드맵(인프런)](https://www.inflearn.com/roadmaps/3)
-- [패스트캠퍼스 Vue.js 강의](https://www.fastcampus.co.kr/dev_camp_vue)
+[Vue.js 학습 로드맵(인프런 온라인 강의)](https://www.inflearn.com/roadmaps/3)
+
+<img src="./images/age-of-vue.png" alt="인프런 Vue.js 시작하기 강의" height="100">
+
+[패스트캠퍼스 Vue.js 오프라인 강의](https://www.fastcampus.co.kr/dev_camp_vue)
+
+<img src="./images/fastcampus-vue.png" alt="패스트캠퍼스 Vue.js 정복 캠프" height="130">
 
 ## 강의 개요
 
